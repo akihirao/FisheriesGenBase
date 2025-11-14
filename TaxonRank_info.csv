@@ -8,7 +8,9 @@ Chordata, Actinopterygii,Beloniformes,Belonidae,ダツ目,ダツ科,OK
 Chordata, Actinopterygii,Beloniformes,Exocoetidae,ダツ目,トビウオ科,OK
 Chordata, Actinopterygii,Beloniformes,Hemiramphidae,ダツ目,サヨリ科,OK
 Chordata, Actinopterygii,Beryciformes,Berycidae,キンメダイ目,キンメダイ科,OK
+Chordata, Actinopterygii,Clupeiformes,Alosidae,ニシン目,マイワシ科,OK
 Chordata, Actinopterygii,Clupeiformes,Clupeidae,ニシン目,ニシン科,OK
+Chordata, Actinopterygii,Clupeiformes,Dorosomatidae,ニシン目,コノシロ科,変更
 Chordata, Actinopterygii,Clupeiformes,Dussumieriidae,ニシン目,ニシン科,OK
 Chordata, Actinopterygii,Clupeiformes,Engraulidae,ニシン目,カタクチイワシ科,OK
 Chordata, Actinopterygii,Clupeiformes,Spratelloididae,ニシン目,ニシン科,Check
@@ -44,6 +46,7 @@ Chordata, Actinopterygii,Perciformes,Pentacerotidae,スズキ目,カワビシャ
 Chordata, Actinopterygii,Perciformes,Priacanthidae,スズキ目,キントキダイ科,OK
 Chordata, Actinopterygii,Perciformes,Sciaenidae,スズキ目,ニベ科,OK
 Chordata, Actinopterygii,Perciformes,Scombridae,スズキ目,サバ科,OK
+Chordata, Actinopterygii,Perciformes,Scorpaenidae,スズキ目,フサカサゴ科,変更
 Chordata, Actinopterygii,Perciformes,Scorpididae,スズキ目,イスズミ科,Check
 Chordata, Actinopterygii,Perciformes,Siganidae,スズキ目,アイゴ科,OK
 Chordata, Actinopterygii,Perciformes,Sillaginidae,スズキ目,キス科,OK
@@ -63,7 +66,7 @@ Chordata, Actinopterygii,Scorpaeniformes,Anoplopomatidae,カサゴ目,ギンダ�
 Chordata, Actinopterygii,Scorpaeniformes,Hemitripteridae,カサゴ目,ケムシカジカ科,OK
 Chordata, Actinopterygii,Scorpaeniformes,Hexagrammidae,カサゴ目,アイナメ科,OK
 Chordata, Actinopterygii,Scorpaeniformes,Platycephalidae,カサゴ目,コチ科,OK
-Chordata, Actinopterygii,Scorpaeniformes,Sebastidae,カサゴ目,メバル科,OK
+Chordata, Actinopterygii,Scorpaeniformes,Sebastidae,カサゴ目,メバル科,変更
 Chordata, Actinopterygii,Scorpaeniformes,Sebastolobidae,カサゴ目,メバル科,Check
 Chordata, Actinopterygii,Scorpaeniformes,Synanceiidae,カサゴ目,オニオコゼ科,OK
 Chordata, Actinopterygii,Scorpaeniformes,Triglidae,カサゴ目,ホウボウ科,OK

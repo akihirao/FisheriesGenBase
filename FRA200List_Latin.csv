@@ -87,9 +87,9 @@
 ホソトビウオ,Chordata,Actinopterygii,Beloniformes,Exocoetidae,Cypselurus hiraii Abe 1953,283373
 サヨリ,Chordata,Actinopterygii,Beloniformes,Hemiramphidae,Hyporhamphus sajori (Temminck & Schlegel 1846),293917
 キンメダイ,Chordata,Actinopterygii,Beryciformes,Berycidae,Beryx splendens Lowe 1834,88663
+マイワシ,Chordata,Actinopterygii,Clupeiformes,Alosidae,Sardinops melanostictus (Temminck & Schlegel 1846),41697
 ニシン,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Clupea pallasii Valenciennes 1847,30724
-コノシロ,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Konosirus punctatus (Temminck & Schlegel 1846),365056
-マイワシ,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Sardinops melanostictus (Temminck & Schlegel 1846),41697
+コノシロ,Chordata,Actinopterygii,Clupeiformes,Dorosomatidae,Konosirus punctatus (Temminck & Schlegel 1846),365056
 ウルメイワシ,Chordata,Actinopterygii,Clupeiformes,Dussumieriidae,Etrumeus micropus (Temminck & Schlegel 1846),942859
 カタクチイワシ,Chordata,Actinopterygii,Clupeiformes,Engraulidae,Engraulis japonica Temminck & Schlegel 1846,42892
 キビナゴ,Chordata,Actinopterygii,Clupeiformes,Spratelloididae,Spratelloides gracilis (Temminck & Schlegel 1846),365052
@@ -164,6 +164,15 @@
 メバチ,Chordata,Actinopterygii,Perciformes,Scombridae,Thunnus obesus (Lowe 1839),8241
 クロマグロ,Chordata,Actinopterygii,Perciformes,Scombridae,Thunnus orientalis (Temminck & Schlegel 1844),8238
 タイセイヨウクロマグロ,Chordata,Actinopterygii,Perciformes,Scombridae,Thunnus thynnus,8237
+ユメカサゴ,Chordata,Actinopterygii,Perciformes,Scorpaenidae,Helicolenus hilgendorfii (Döderlein 1884),143344
+バラメヌケ,Chordata,Actinopterygii,Perciformes,Scorpaenidae,Sebastes baramenuke (Wakiya 1917),214491
+シロメバル,Chordata,Actinopterygii,Perciformes,Scorpaenidae,Sebastes cheni Barsukov 1988,1738870
+ハツメ,Chordata,Actinopterygii,Perciformes,Scorpaenidae,Sebastes owstoni (Jordan & Thompson 1914),160819
+クロソイ,Chordata,Actinopterygii,Perciformes,Scorpaenidae,Sebastes schlegelii Hilgendorf 1880,214486
+ウスメバル,Chordata,Actinopterygii,Perciformes,Scorpaenidae,Sebastes thompsoni (Jordan & Hubbs 1925),105747
+キツネメバル,Chordata,Actinopterygii,Perciformes,Scorpaenidae,Sebastes vulpes Döderlein 1884,201710
+カサゴ,Chordata,Actinopterygii,Perciformes,Scorpaenidae,Sebastiscus marmoratus (Cuvier 1829),41446
+キチジ,Chordata,Actinopterygii,Perciformes,Scorpaenidae,Sebastolobus macrochir (Günther 1877),98657
 タカベ,Chordata,Actinopterygii,Perciformes,Scorpididae,Labracoglossa argentiventris Peters 1866,163139
 アイゴ,Chordata,Actinopterygii,Perciformes,Siganidae,Siganus fuscescens (Houttuyn 1782),225757
 シロギス,Chordata,Actinopterygii,Perciformes,Sillaginidae,Sillago japonica Temminck & Schlegel 1843,43258
@@ -214,18 +223,9 @@
 アイナメ,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Hexagrammos otakii Jordan & Starks 1895,72450
 ホッケ,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Pleurogrammus azonus Jordan & Metz 1913,175282
 マゴチ,Chordata,Actinopterygii,Scorpaeniformes,Platycephalidae,Platycephalus sp. 2,3111536
-ユメカサゴ,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Helicolenus hilgendorfii (Döderlein 1884),143344
-バラメヌケ,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes baramenuke (Wakiya 1917),214491
-シロメバル,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes cheni Barsukov 1988,1738870
 ファスシアツスアカウオ,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes fasciatus,394691
 メンテラアカウオ,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes mentella,394696
 タイセイヨウアカウオ,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes norvegicus,394699
-ハツメ,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes owstoni (Jordan & Thompson 1914),160819
-クロソイ,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes schlegelii Hilgendorf 1880,214486
-ウスメバル,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes thompsoni (Jordan & Hubbs 1925),105747
-キツネメバル,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes vulpes Döderlein 1884,201710
-カサゴ,Chordata,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastiscus marmoratus (Cuvier 1829),41446
-キチジ,Chordata,Actinopterygii,Scorpaeniformes,Sebastolobidae,Sebastolobus macrochir (Günther 1877),98657
 オニオコゼ,Chordata,Actinopterygii,Scorpaeniformes,Synanceiidae,Inimicus japonicus (Cuvier 1829),652442
 ホウボウ,Chordata,Actinopterygii,Scorpaeniformes,Triglidae,Chelidonichthys spinosus (McClelland 1843),450224
 カナガシラ,Chordata,Actinopterygii,Scorpaeniformes,Triglidae,Lepidotrigla microptera Günther 1873,255557
