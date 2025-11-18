@@ -58,7 +58,8 @@
 ## Load fisheries resource fish species
 
     fish_species_list = read_csv("aquatic_organism_genome_size.csv") %>%
-      filter(Phylum == "Chordata")
+      filter(Phylum == "Chordata") %>%
+      filter(Class %in% c("Chondrichthyes","Actinopterygii"))
 
 ## Estimate generation times for each of fish species
 
