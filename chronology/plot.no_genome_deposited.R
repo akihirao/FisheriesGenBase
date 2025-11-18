@@ -98,8 +98,12 @@ cat("Percentage of number of genus with genome assembly")
 print(num_genus_assembly/num_target_species)
 
 
-last_list_with_assembly <- csv_list[[num_list]] %>% filter(Genome_size_of_the_species_Mbp > 0)
-gg_assembly_len_dist <- ggplot(last_list_with_assembly,
+last_list_with_assembly_fish <- csv_list[[num_list]] %>% 
+  filter(Genome_size_of_the_species_Mbp > 0) %>%
+  filter(Phylum=="Chordata") %>%
+  filter(Class %in% c("Chondrichthyes","Actinopterygii"))
+  
+gg_assembly_len_dist <- ggplot(last_list_with_assembly_fish,
                                aes(x= Genome_size_of_the_species_Mbp)) +
   geom_histogram() +
   labs(x = "Genome size (Mbp)", y = "Count") +
@@ -111,7 +115,10 @@ plot(gg_assembly_len_dist)
 dev.off()
 
 
-genome_status = unlist(tapply(csv_list[[num_list]],csv_list[[num_list]]$Representative_assembly_status,count))
+#genome_status = unlist(tapply(csv_list[[num_list]],csv_list[[num_list]]$Representative_assembly_status,count))
+
+genome_status = unlist(tapply(last_list_with_assembly_fish,last_list_with_assembly_fish$Representative_assembly_status,count))
+
 genome_status_tidy = tibble(Assembly_level= names(genome_status), count=genome_status) %>%
   mutate(neg_count = -count)
 genome_status_tidy$Assembly_level = factor(genome_status_tidy$Assembly_level, 
