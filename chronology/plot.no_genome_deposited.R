@@ -35,7 +35,8 @@ num_sp_genome_series <- c()
 num_sp_genus_genome_series <- c()
 for(i in 1:num_list){
   target_csv <- csv_list[[i]] %>%
-    filter(Phylum=="Chordata")
+    filter(Phylum=="Chordata") %>%
+    filter(Class %in% c("Chondrichthyes","Actinopterygii"))
   num_sp_genome_series[i] <- sum(!is.na(target_csv$Genome_size_of_the_species_Mbp)) 
   num_sp_genus_genome_series[i] <- sum(!is.na(target_csv$Average_genome_size_of_the_genus_Mbp)) 
 }

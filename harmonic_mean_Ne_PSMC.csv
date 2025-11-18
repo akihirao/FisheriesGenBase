@@ -1,6 +1,7 @@
 Japanese_name,Species,SRA,BioSample,Ave_depth,mu,Generation_time,harmonic_mean_Ne
 ニホンウナギ,Anguilla japonica,SRR19974267,SAMN29326702,109.7,7.4E-08,8.5,23570
 イラコアナゴ,Synaphobranchus kaupii,SRR15082970,SAMN20062003,9.9,1.0E-08,FishLife,46603
+サンマ,Cololabis saira,NA,SAMN37790936,NA,1.0E-08,2,91532
 キンメダイ,Beryx splendens,ERR1473897,SAMEA4028808,13.3,1.0E-08,FishLife,110241
 コマイ,Eleginus gracilis,SRR12199771,SAMN15508110,13.6,1.0E-08,FishLife,44366
 スケトウダラ,Gadus chalcogrammus,SRR14784771,SAMN19665369,37.2,6.0E-09,10,85506
