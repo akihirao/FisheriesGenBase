@@ -2,9 +2,12 @@
     GenBank](#scraping-genome-assembly-information-for-fish-species-on-genbank)
     -   [Loading the packages](#loading-the-packages)
     -   [Loading dataset](#loading-dataset)
+    -   [Family order of
+        Actinopterygii](#family-order-of-actinopterygii)
     -   [Preparing storages](#preparing-storages)
     -   [Defining scraping function](#defining-scraping-function)
     -   [Scraping on GenBank](#scraping-on-genbank)
+-   [Sort along systematics](#sort-along-systematics)
     -   [Write a result file](#write-a-result-file)
     -   [Furture works](#furture-works)
 
@@ -50,6 +53,13 @@ AGSDB_List <- AGSDB_List %>% mutate(Genus=AGSDB_genus_vec, C_value=AGSDB_C_vec)
 
 AGSDB_genus_ave_genome_size <- tapply(AGSDB_List$C_value,AGSDB_List$Genus, mean)
 AGSDB_no_genus_avail <- tapply(AGSDB_List$C_value,AGSDB_List$Genus, length)
+```
+
+## Family order of Actinopterygii
+
+``` r
+FamilyOrderActinopterygii_info <- read_csv("20250911_JAFList.csv")
+FamilyOrderActinopterygii <- FamilyOrderActinopterygii_info$Family %>% unique()
 ```
 
 ## Preparing storages
@@ -264,7 +274,6 @@ for(i in 1:n_species){
 }
 
 
-
 species_genome <- species %>%
   mutate (Genome_size_of_the_species_Mbp = representative_genome_size_vec,
           No_assembly_of_the_species = No_deposited_sp_level_genome_vec,
@@ -276,6 +285,58 @@ species_genome <- species %>%
           No_species_with_assembly_within_the_genus = no_species_with_assembly_within_the_genus_vec,
           AGSDB_genus_genome_size = AGSDB_genus_genome_size_vec,
           AGSDB_No_genus_avail = AGSDB_no_genus_avail_vec)
+```
+
+# Sort along systematics
+
+``` r
+species_genome$Phylum <- factor(species_genome$Phylum,
+                                 levels = c("Ochrophyta",
+                                            "Arthropoda",
+                                             "Mollusca",
+                                            "Echinodermata",
+                                            "Chordata")
+                                )
+
+
+class_tree <- c(
+  "Phaeophyceae",
+  "Malacostraca",
+  "Bivalvia",
+  "Gastropoda",
+  "Cephalopoda",
+  "Echinoidea",
+  "Holothuroidea",
+  "Chondrichthyes",
+  "Actinopterygii",
+  "Mammalia"
+  )
+
+order_tree <- c(
+  "Laminariales",
+  "Decapoda","Euphausiacea","Stomatopoda",
+  "Arcoida","Veneroida",
+  "Vetigastropoda","Sorbeoconcha",
+  "Cephalopoda","Octopoda","Sepioidea","Teuthoidea",
+  "Camarodonta","Aspidochirotida",
+  "Squaliformes","Orectolobiformes","Lamniformes","Carcharhiniformes","Myliobatiformes",
+  "Anguilliformes","Aulopiformes","Beloniformes","Beryciformes","Clupeiformes","Gadiformes",
+  "Lampriformes","Lophiiformes","Ophidiiformes","Osmeriformes","Perciformes","Pleuronectiformes",
+  "Salmoniformes","Scorpaeniformes","Syngnathiformes","Tetraodontiformes","Zeiformes",
+  "Carnivora","Cetartiodactyla"
+)
+
+
+
+species_genome$Class <- factor(species_genome$Class,
+                                levels = class_tree)
+
+species_genome$Order <- factor(species_genome$Order,
+                                levels = order_tree)
+
+
+species_genome <- species_genome %>%
+  arrange(Phylum, Class, Order, Family)
 ```
 
 ## Write a result file
