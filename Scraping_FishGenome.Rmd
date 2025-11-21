@@ -53,6 +53,14 @@ AGSDB_genus_ave_genome_size <- tapply(AGSDB_List$C_value,AGSDB_List$Genus, mean)
 AGSDB_no_genus_avail <- tapply(AGSDB_List$C_value,AGSDB_List$Genus, length)
 ```
 
+## Family order of Actinopterygii
+
+```{r message = FALSE, warning = FALSE, echo = TRUE}
+FamilyOrderActinopterygii_info <- read_csv("20250911_JAFList.csv")
+FamilyOrderActinopterygii <- FamilyOrderActinopterygii_info$Family %>% unique()
+
+```
+
 ## Preparing storages
 
 ```{r message = FALSE, warning = FALSE, echo = TRUE}
@@ -266,7 +274,6 @@ for(i in 1:n_species){
 }
 
 
-
 species_genome <- species %>%
   mutate (Genome_size_of_the_species_Mbp = representative_genome_size_vec,
           No_assembly_of_the_species = No_deposited_sp_level_genome_vec,
@@ -280,7 +287,63 @@ species_genome <- species %>%
           AGSDB_No_genus_avail = AGSDB_no_genus_avail_vec)
 ```
 
+# Sort along systematics
+
+
+```{r message = FALSE, warning = FALSE, echo = TRUE}
+
+species_genome$Phylum <- factor(species_genome$Phylum,
+                                 levels = c("Ochrophyta",
+                                            "Arthropoda",
+                                             "Mollusca",
+                                            "Echinodermata",
+                                            "Chordata")
+                                )
+
+
+class_tree <- c(
+  "Phaeophyceae",
+  "Malacostraca",
+  "Bivalvia",
+  "Gastropoda",
+  "Cephalopoda",
+  "Echinoidea",
+  "Holothuroidea",
+  "Chondrichthyes",
+  "Actinopterygii",
+  "Mammalia"
+  )
+
+order_tree <- c(
+  "Laminariales",
+  "Decapoda","Euphausiacea","Stomatopoda",
+  "Arcoida","Veneroida",
+  "Vetigastropoda","Sorbeoconcha",
+  "Cephalopoda","Octopoda","Sepioidea","Teuthoidea",
+  "Camarodonta","Aspidochirotida",
+  "Squaliformes","Orectolobiformes","Lamniformes","Carcharhiniformes","Myliobatiformes",
+  "Anguilliformes","Aulopiformes","Beloniformes","Beryciformes","Clupeiformes","Gadiformes",
+  "Lampriformes","Lophiiformes","Ophidiiformes","Osmeriformes","Perciformes","Pleuronectiformes",
+  "Salmoniformes","Scorpaeniformes","Syngnathiformes","Tetraodontiformes","Zeiformes",
+  "Carnivora","Cetartiodactyla"
+)
+
+
+
+species_genome$Class <- factor(species_genome$Class,
+                                levels = class_tree)
+
+species_genome$Order <- factor(species_genome$Order,
+                                levels = order_tree)
+
+
+species_genome <- species_genome %>%
+  arrange(Phylum, Class, Order, Family)
+
+```
+
 ## Write a result file
+
 ```{r message = FALSE, warning = FALSE, echo = TRUE}
 write_csv(species_genome, "aquatic_organism_genome_size.csv")
 ```
@@ -289,4 +352,5 @@ write_csv(species_genome, "aquatic_organism_genome_size.csv")
 ```{r message = FALSE, warning = FALSE, echo = TRUE}
 # list up for no. contigs/scaffolds
 ```
+
 

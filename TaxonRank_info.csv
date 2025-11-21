@@ -18,7 +18,6 @@ Chordata, Actinopterygii,Gadiformes,Gadidae,タラ目,タラ科,OK
 Chordata, Actinopterygii,Gadiformes,Moridae,タラ目,チゴダラ科,OK
 Chordata, Actinopterygii,Lampriformes,Lampridae,アカマンボウ目,アカマンボウ科,OK
 Chordata, Actinopterygii,Lophiiformes,Lophiidae,アンコウ目,アンコウ科,OK
-Chordata, Actinopterygii,Myliobatiformes,Dasyatidae,トビエイ目,アカエイ科,OK
 Chordata, Actinopterygii,Ophidiiformes,Ophidiidae,アシロ目,アシロ科,OK
 Chordata, Actinopterygii,Osmeriformes,Argentinidae,キュウリウオ目,ニギス科,OK
 Chordata, Actinopterygii,Osmeriformes,Salangidae,キュウリウオ目,シラウオ科,OK
@@ -79,6 +78,7 @@ Chordata, Chondrichthyes,Lamniformes,Alopiidae,ネズミザメ目,ウバザメ�
 Chordata, Chondrichthyes,Lamniformes,Cetorhinidae,ネズミザメ目,ウバザメ科,Check
 Chordata, Chondrichthyes,Lamniformes,Lamnidae,ネズミザメ目,ネズミザメ科,Check
 Chordata, Chondrichthyes,Lamniformes,Pseudocarchariidae,ネズミザメ目,ミズワニ科,Check
+Chordata, Chondrichthyes,Myliobatiformes,Dasyatidae,トビエイ目,アカエイ科,OK
 Chordata, Chondrichthyes,Squaliformes,Squalidae,ツノザメ目,ツノザメ科,Check
 Chordata, Chondrichthyes,Orectolobiformes,Rhincodontidae,テンジクザメ目,ジンベエザメ科,Check
 Chordata, Mammalia,Carnivora,Otariidae,食肉目,アシカ科,Check

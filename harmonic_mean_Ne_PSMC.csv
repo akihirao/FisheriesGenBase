@@ -1,29 +1,34 @@
-Japanese_name,Species,SRA,BioSample,Ave_depth,mu,Generation_time,harmonic_mean_Ne
-ニホンウナギ,Anguilla japonica,SRR19974267,SAMN29326702,109.7,7.4E-08,8.5,23570
-イラコアナゴ,Synaphobranchus kaupii,SRR15082970,SAMN20062003,9.9,1.0E-08,FishLife,46603
-サンマ,Cololabis saira,NA,SAMN37790936,NA,1.0E-08,2,91532
-キンメダイ,Beryx splendens,ERR1473897,SAMEA4028808,13.3,1.0E-08,FishLife,110241
-コマイ,Eleginus gracilis,SRR12199771,SAMN15508110,13.6,1.0E-08,FishLife,44366
-スケトウダラ,Gadus chalcogrammus,SRR14784771,SAMN19665369,37.2,6.0E-09,10,85506
-マダラ,Gadus macrocephalus,SRR21531029,SAMN30802603,47.9,6.0E-09,10,68401
-アカマンボウ,Lampris megalopsis,SRR21383269,SAMN22826595,45.3,1.0E-08,FishLife,83059
-マルアジ,Decapterus maruadsi,SRR22328126,SAMN31777759,40.1,1.0E-08,FishLife,163890
-カンパチ,Seriola dumerili,DRR121626,SAMD00109156,23.5,1.0E-08,FishLife,57046
-ボラ,Mugil cephalus,SRR15214610,SAMN16703275,81.2,1.0E-08,FishLife,99756
-イシダイ,Oplegnathus fasciatus,SRR16896027,SAMN22966831,39.7,1.0E-08,FishLife,58378
-スマ,Euthynnus affinis,SRR14329338,SAMN18876749,35.5,1.0E-08,3.25,88673
-マサバ,Scomber japonicus,SRR26673749,SAMN38107556,31.6,1.0E-08,FishLife,136079
-クロマグロ,Thunnus orientalis,SRR14329339,SAMN18876748,43.4,7.3E-08,2.5,18231
-マダイ,Pagrus major,DRR089066,SAMD00076252,12.4,1.0E-08,FishLife,31235
-ホシガレイ,Verasper variegatus,SRR21480267,SAMN30723058,28.9,1.0E-08,FishLife,39484
-ユメカサゴ,Helicolenus hilgendorfii,ERR5241692,SAMEA7962316,26.5,1.0E-08,FishLife,106721
-バラメヌケ,Sebastes baramenuke,ERR5241700,SAMEA7962325,18.3,1.0E-08,FishLife,32713
-シロメバル,Sebastes cheni,ERR5241704,SAMEA7962329,30.5,1.0E-08,FishLife,45376
-クロソイ,Sebastes schlegelii,ERR5241771,SAMEA7962400,19.4,1.0E-08,FishLife,47125
-ウスメバル,Sebastes thompsoni,ERR5241777,SAMEA7962406,18.5,1.0E-08,FishLife,59984
-キツネメバル,Sebastes vulpes,ERR5241781,SAMEA7962413,18.3,1.0E-08,FishLife,24398
-トラフグ,Takifugu rubripes,ERR3332418,SAMEA104384834,30.2,2.5E-09,4,24356
-マトウダイ,Zeus faber,ERR11641144,SAMEA111562293,14.3,1.0E-08,FishLife,25287
-ガザミ,Portunus trituberculatus,SRR11838621,SAMN14896546,50.3,2.8E-09,2,230397	
-マダコ,Octopus vulgaris,SRR7898210-SRR7898213,SAMN10120072,51.0,2.4E-09,2.5,445127
-アサリ,Ruditapes philippinarum,SRR23279237,SAMN32964221,18.6,2.50E-08,2,82836
+Japanese_name,Species,SRA,BioSample,Ave_depth,Generation_time,mu,harmonic_mean_Ne,Location
+ニホンウナギ,Anguilla japonica,SRR19974267,SAMN29326702,109.7,8.5,7.4E-08,23570, NA
+イラコアナゴ,Synaphobranchus kaupii,SRR15082970,SAMN20062003,9.9,8.2,1.0E-08,46603,Taiwan:Kaohsiung
+サンマ,Cololabis saira,NA,SAMN37790936,NA,2,1.0E-08,91532,Japan:Fukushima
+サヨリ,Hyporhamphus sajori,SRR30921217,SAMN44091805,NA,3.3,1.0E-08,NA,China:Qingdao
+サンマ,Cololabis saira,NA,SAMN37790936,NA,2,1.0E-08,91532,Japan:Fukushima
+キンメダイ,Beryx splendens,ERR1473897,SAMEA4028808,13.3,9,1,1.0E-08,110241,NA
+カタクチイワシ,Engraulis japonica,SRR28201207,SAMN40219478,47.3,1,1.0E-08,140816,China:Yellow Sea
+コマイ,Eleginus gracilis,SRR12199771,SAMN15508110,13.6,1.0E-08,FishLife,44366,NA
+スケトウダラ,Gadus chalcogrammus,SRR14784771,SAMN19665369,37.2,6.0E-09,10,85506,NA
+マダラ,Gadus macrocephalus,SRR21531029,SAMN30802603,47.9,6.0E-09,10,68401,China:Yellow Sea
+アカマンボウ,Lampris megalopsis,SRR21383269,SAMN22826595,45.3,1.0E-08,FishLife,83059,Indian Ocean
+マルアジ,Decapterus maruadsi,SRR22328126,SAMN31777759,40.1,1.0E-08,FishLife,163890,NA
+カンパチ,Seriola dumerili,DRR121626,SAMD00109156,23.5,1.0E-08,FishLife,57046,Pacific Ocean: the sea near Kochi: Japan
+ボラ,Mugil cephalus,SRR15214610,SAMN16703275,81.2,1.0E-08,FishLife,99756,India:Chennai
+イシダイ,Oplegnathus fasciatus,SRR16896027,SAMN22966831,39.7,1.0E-08,FishLife,58378,China:Zhoushan population
+スマ,Euthynnus affinis,SRR14329338,SAMN18876749,35.5,1.0E-08,3.25,88673,NA
+マサバ,Scomber japonicus,SRR26673749,SAMN38107556,31.6,1.0E-08,FishLife,136079,South Korea: Gyeongsangnam-do: near Dara National Park
+クロマグロ,Thunnus orientalis,SRR14329339,SAMN18876748,43.4,7.3E-08,2.5,18231,NA
+クロダイ,Acanthopagrus schlegelii,SRR29908552,SAMN42360248,118.9,1.0E-08,86484,China:Huizhou
+マダイ,Pagrus major,DRR089066,SAMD00076252,12.4,1.0E-08,FishLife,31235,Japan:Ehime:Kamijima:Iwagi
+タチウオ,Trichiurus japonicus,SRR32395546,SAMN44500129,26.2,5.5,1.0E-08,NA,China: Goji island: Zhoushan county: Zhejiang Province
+ホシガレイ,Verasper variegatus,SRR21480267,SAMN30723058,28.9,1.0E-08,FishLife,39484,NA
+ユメカサゴ,Helicolenus hilgendorfii,ERR5241692,SAMEA7962316,26.5,1.0E-08,FishLife,106721,lat:22.004;long:120.745
+バラメヌケ,Sebastes baramenuke,ERR5241700,SAMEA7962325,18.3,1.0E-08,FishLife,32713,lat:39.67;long:142.13
+シロメバル,Sebastes cheni,ERR5241704,SAMEA7962329,30.5,1.0E-08,FishLife,45376,lat:35.5;long:135.55
+クロソイ,Sebastes schlegelii,ERR5241771,SAMEA7962400,19.4,1.0E-08,FishLife,47125,lat:39.67;long:142.13
+ウスメバル,Sebastes thompsoni,ERR5241777,SAMEA7962406,18.5,1.0E-08,FishLife,59984,lat:37.283;long:137.121
+キツネメバル,Sebastes vulpes,ERR5241781,SAMEA7962413,18.3,1.0E-08,FishLife,24398,lat:37.303;long:137.249
+トラフグ,Takifugu rubripes,ERR3332418,SAMEA104384834,30.2,2.5E-09,4,24356,NA
+マトウダイ,Zeus faber,ERR11641144,SAMEA111562293,14.3,1.0E-08,FishLife,25287,United Kingdom
+ガザミ,Portunus trituberculatus,SRR11838621,SAMN14896546,50.3,2.8E-09,2,230397,NA
+マダコ,Octopus vulgaris,SRR7898210-SRR7898213,SAMN10120072,51.0,2.4E-09,2.5,445127,NA
+アサリ,Ruditapes philippinarum,SRR23279237,SAMN32964221,18.6,2.50E-08,2,82836,China:Shandong:Qingdao
