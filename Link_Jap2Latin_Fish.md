@@ -23,7 +23,7 @@ library(rentrez)
 rm(list=ls(all=TRUE))
 
 # Current standard Japanese/scientific names of all fish species recorded from Japanese waters: https://www.museum.kagoshima-u.ac.jp/staff/motomura/jaf.html
-JAFList <- read_csv("20250123_JAFList.csv") #update@2025Feb28 in this script
+JAFList <- read_csv("20250911_JAFList.csv") #update@2025No14 in this script
 
 NonFish_List <- read_csv("NonFishList.csv")
 
@@ -163,21 +163,52 @@ for(i in 1:n_fish){
 
 # Checking number of phylum in the dataset
 n_phylum <- length(unique(phylum_name_vec))
-Phylum_order <- c("Echinodermata",
-                  "Mollusca",
+Phylum_order <- c("Ochrophyta",
                   "Arthropoda",
-                  "Chordata",
-                  "Ochrophyta")
+                  "Mollusca",
+                  "Echinodermata",
+                  "Chordata")
 if(!(n_phylum==length(Phylum_order))){
   warning("Number of phylum-levels does not match the dataset")
 }
 
-# Checking number of phylum in the dataset
+# Checking number of class in the dataset
 n_class <- length(unique(class_name_vec))
-Class_order <- c("Echinoidea","Holothuroidea","Bivalvia","Gastropoda","Cephalopoda","Malacostraca","Chondrichthyes","Actinopterygii","Mammalia","Phaeophyceae")
+Class_order <- c(
+  "Phaeophyceae",
+  "Malacostraca",
+  "Bivalvia",
+  "Gastropoda",
+  "Cephalopoda",
+  "Echinoidea",
+  "Holothuroidea",
+  "Chondrichthyes",
+  "Actinopterygii",
+  "Mammalia")
 if(!(n_class=length(Class_order))){
   warning("Number of class-levels does not match the dataset")
 }
+
+# Checking number of order in the dataset
+n_order <- length(unique(order_name_vec))
+Order_order <- c(
+  "Laminariales",
+  "Decapoda","Euphausiacea","Stomatopoda",
+  "Arcoida","Veneroida",
+  "Vetigastropoda","Sorbeoconcha",
+  "Cephalopoda","Octopoda","Sepioidea","Teuthoidea",
+  "Camarodonta","Aspidochirotida",
+  "Squaliformes","Orectolobiformes","Lamniformes","Carcharhiniformes","Myliobatiformes",
+  "Anguilliformes","Aulopiformes","Beloniformes","Beryciformes","Clupeiformes","Gadiformes",
+  "Lampriformes","Lophiiformes","Ophidiiformes","Osmeriformes","Perciformes","Pleuronectiformes",
+  "Salmoniformes","Scorpaeniformes","Syngnathiformes","Tetraodontiformes","Zeiformes",
+  "Carnivora","Cetartiodactyla"
+)
+if(!(n_order=length(Order_order))){
+  warning("Number of order-levels does not match the dataset")
+}
+
+
 
 
 # Summarizing a taxonomy list
@@ -215,7 +246,8 @@ FRA200List_Kokushi_Latin_info <- read_csv("FRA200List_Kokushi_Latin.csv") %>%
 FRA200List_Latin_query <- bind_rows(FRA200List_Latin,
                               FRA200List_Kokushi_Latin_info) %>%
   mutate(Phylum=factor(Phylum, levels=Phylum_order),
-         Class =factor(Class , levels=Class_order)) %>%
+         Class =factor(Class , levels=Class_order),
+         Order = factor(Order , levels=Order_order)) %>%
   arrange(Phylum, Class, Order, Family, Scientific_name) %>%
   dplyr::distinct(和名,.keep_all = TRUE)
 

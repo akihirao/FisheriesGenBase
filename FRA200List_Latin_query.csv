@@ -1,42 +1,12 @@
 和名,Phylum,Class,Order,Family,Scientific_name,NCBI_query_scientific_name,Taxonomy_id
-ムラサキウニ,Echinodermata,Echinoidea,Camarodonta,Echinometridae,"Heliocidaris crassispina (A. Agassiz, 1864)","Heliocidaris crassispina (A. Agassiz, 1864)",1043166
-バフンウニ,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,"Hemicentrotus pulcherrimus (A. Agassiz, 1864)","Hemicentrotus pulcherrimus (A. Agassiz, 1864)",7650
-キタムラサキウニ,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,"Mesocentrotus nudus (A. Agassiz, 1864)","Mesocentrotus nudus (A. Agassiz, 1864)",7666
-アカウニ,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,"Pseudocentrotus depressus (A. Agassiz, 1864)","Pseudocentrotus depressus (A. Agassiz, 1864)",7678
-エゾバフンウニ,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,"Strongylocentrotus intermedius (A. Agassiz, 1864)","Strongylocentrotus intermedius (A. Agassiz, 1864)",7667
-シラヒゲウニ,Echinodermata,Echinoidea,Camarodonta,Toxopneustidae,"Tripneustes gratilla (Linnaeus, 1758)","Tripneustes gratilla (Linnaeus, 1758)",7673
-マナマコ,Echinodermata,Holothuroidea,Aspidochirotida,Stichopodidae,"Apostichopus japonicus (Selenka, 1867)","Apostichopus japonicus (Selenka, 1867)",307972
-アカガイ,Mollusca,Bivalvia,Arcoida,Arcidae,"Anadara broughtonii (Schrenck, 1867)","Anadara broughtonii (Schrenck, 1867)",148819
-トリガイ,Mollusca,Bivalvia,Veneroida,Cardiidae,"Fulvia mutica (Reeve, 1844)","Fulvia mutica (Reeve, 1844)",80828
-ウバガイ,Mollusca,Bivalvia,Veneroida,Mactridae,"Spisula sachalinensis (Schrenck, 1862)","Spisula sachalinensis (Schrenck, 1862)",81899
-ハマグリ,Mollusca,Bivalvia,Veneroida,Veneridae,"Meretrix lusoria (Röding, 1798)","Meretrix lusoria (Röding, 1798)",74491
-アサリ,Mollusca,Bivalvia,Veneroida,Veneridae,"Ruditapes philippinarum (Adams & Reeve, 1850)","Ruditapes philippinarum (Adams & Reeve, 1850)",129788
-シライトマキバイ,Mollusca,Gastropoda,Sorbeoconcha,Buccinidae,"Buccinum isaotakii Kira, 1959","Buccinum isaotakii Kira, 1959",284248
-エッチュウバイ,Mollusca,Gastropoda,Sorbeoconcha,Buccinidae,"Buccinum striatissimum Sowerby, 1899","Buccinum striatissimum Sowerby, 1899",235555
-エゾボラモドキ,Mollusca,Gastropoda,Sorbeoconcha,Buccinidae,"Neptunea intersculpta (Sowerby III, 1899)","Neptunea intersculpta (Sowerby III, 1899)",128480
-クロアワビ,Mollusca,Gastropoda,Vetigastropoda,Haliotidae,"Haliotis discus discus Reeve, 1846","Haliotis discus discus Reeve, 1846",36094
-エゾアワビ,Mollusca,Gastropoda,Vetigastropoda,Haliotidae,"Haliotis discus hannai Ino, 1952","Haliotis discus hannai Ino, 1952",36094
-トコブシ,Mollusca,Gastropoda,Vetigastropoda,Haliotidae,"Haliotis diversicolor aquatilis Reeve, 1846","Haliotis diversicolor aquatilis Reeve, 1846",36095
-メガイアワビ,Mollusca,Gastropoda,Vetigastropoda,Haliotidae,"Haliotis gigantea Gmelin, 1791","Haliotis gigantea Gmelin, 1791",37743
-マダカアワビ,Mollusca,Gastropoda,Vetigastropoda,Haliotidae,"Haliotis madaka (Habe, 1979)","Haliotis madaka (Habe, 1979)",81897
-サザエ,Mollusca,Gastropoda,Vetigastropoda,Turbininae,"Turbo sazae Fukuda, 2017","Turbo sazae Fukuda, 2017",2764709
-シリヤケイカ,Mollusca,Cephalopoda,Cephalopoda,Sepiidae,"Sepiella japonica Sasaki, 1929","Sepiella japonica Sasaki, 1929",279094
-イイダコ,Mollusca,Cephalopoda,Octopoda,Octopodidae,"Amphioctopus fangsiao (d'Orbigny, 1839)","Amphioctopus fangsiao (d'Orbigny, 1839)",515817
-ミズダコ,Mollusca,Cephalopoda,Octopoda,Octopodidae,"Enteroctopus dofleini (Wuelker, 1910)","Enteroctopus dofleini (Wuelker, 1910)",267067
-マダコ,Mollusca,Cephalopoda,Octopoda,Octopodidae,"Octopus vulgaris Cuvier, 1797","Octopus vulgaris Cuvier, 1797",6645
-ヤナギダコ,Mollusca,Cephalopoda,Octopoda,Octopodidae,"Paroctopus conispadiceus (Sasaki, 1917)","Paroctopus conispadiceus (Sasaki, 1917)",294700
-コウイカ,Mollusca,Cephalopoda,Sepioidea,Sepiidae,"Sepia esculenta Hoyle, 1885","Sepia esculenta Hoyle, 1885",31210
-カミナリイカ,Mollusca,Cephalopoda,Sepioidea,Sepiidae,"Sepia lycidas Gray, 1849","Sepia lycidas Gray, 1849",296134
-ホタルイカ,Mollusca,Cephalopoda,Teuthoidea,Enoploteuthidae,"Watasenia scintillans (Berry, 1911)","Watasenia scintillans (Berry, 1911)",6625
-ヤリイカ,Mollusca,Cephalopoda,Teuthoidea,Loliginidae,"Heterololigo bleekeri (Keferstein, 1866)","Heterololigo bleekeri (Keferstein, 1866)",1423826
-ジンドウイカ,Mollusca,Cephalopoda,Teuthoidea,Loliginidae,"Loliolus japonica (Hoyle, 1885)","Loliolus japonica (Hoyle, 1885)",78421
-アオリイカ,Mollusca,Cephalopoda,Teuthoidea,Loliginidae,"Sepioteuthis lessoniana Lesson, 1830","Sepioteuthis lessoniana Lesson, 1830",34570
-ケンサキイカ,Mollusca,Cephalopoda,Teuthoidea,Loliginidae,"Uroteuthis edulis (Hoyle, 1885)","Uroteuthis edulis (Hoyle, 1885)",55720
-アメリカオオアカイカ,Mollusca,Cephalopoda,Teuthoidea,Ommastrephidae,Dosidicus gigas,Dosidicus gigas,346249
-アルゼンチンマツイカ,Mollusca,Cephalopoda,Teuthoidea,Ommastrephidae,Illex argentinus,Illex argentinus,6628
-アカイカ,Mollusca,Cephalopoda,Teuthoidea,Ommastrephidae,Ommastrephes bartramii,Ommastrephes bartramii,61679
-スルメイカ,Mollusca,Cephalopoda,Teuthoidea,Ommastrephidae,"Todarodes pacificus Steenstrup, 1880","Todarodes pacificus Steenstrup, 1880",6637
-ソデイカ,Mollusca,Cephalopoda,Teuthoidea,Thysanoteuthidae,"Thysanoteuthis rhombus Troschel, 1857","Thysanoteuthis rhombus Troschel, 1857",61751
+ミツイシコンブ,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,"Saccharina angustata (Kjellman) Lane, Mayes, Druehl et Saunders","Saccharina angustata (Kjellman) Lane, Mayes, Druehl et Saunders",88154
+ガッガラコンブ,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,"Saccharina coriacea (Miyabe) Lane, Mayes, Druehl et Saunders","Saccharina coriacea (Miyabe) Lane, Mayes, Druehl et Saunders",416835
+マコンブ,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,"Saccharina japonica (Areschoug) Lane, Mayes, Druehl et Saunders","Saccharina japonica (Areschoug) Lane, Mayes, Druehl et Saunders",88149
+オニコンブ,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,"Saccharina japonica (Areschoug) Lane, Mayes, Druehl et Saunders var. diabolica (Miyabe) Yotsukura, Kawashima, Kawai, Abe et Druehl","Saccharina japonica (Areschoug) Lane, Mayes, Druehl et Saunders var. diabolica (Miyabe) Yotsukura, Kawashima, Kawai, Abe et Druehl",88149
+リシリコンブ,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,"Saccharina japonica (Areschoug) Lane, Mayes, Druehl et Saunders var. ochotensis (Miyabe) Yotsukura, Kawashima, Kawai, Abe et Druehl","Saccharina japonica (Areschoug) Lane, Mayes, Druehl et Saunders var. ochotensis (Miyabe) Yotsukura, Kawashima, Kawai, Abe et Druehl",88149
+ホソメコンブ,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,"Saccharina japonica (Areschoug) Lane, Mayes, Druehl et Saunders var. religiosa (Miyabe) Yotsukura, Kawashima, Kawai, Abe et Druehl","Saccharina japonica (Areschoug) Lane, Mayes, Druehl et Saunders var. religiosa (Miyabe) Yotsukura, Kawashima, Kawai, Abe et Druehl",88149
+ナガコンブ,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,"Saccharina longissima (Miyabe) Lane, Mayes, Druehl et Saunders","Saccharina longissima (Miyabe) Lane, Mayes, Druehl et Saunders",416841
+ガゴメコンブ,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,"Saccharina sculpera (Miyabe) Lane, Mayes, Druehl et Saunders","Saccharina sculpera (Miyabe) Lane, Mayes, Druehl et Saunders",416830
 ケガニ,Arthropoda,Malacostraca,Decapoda,Atelecyclidae,"Erimacrus isenbeckii (Brandt, 1848)","Erimacrus isenbeckii (Brandt, 1848)",299522
 クロザコエビ,Arthropoda,Malacostraca,Decapoda,Crangonidae,"Argis lar (Owen, 1839)","Argis lar (Owen, 1839)",397926
 トゲザコエビ,Arthropoda,Malacostraca,Decapoda,Crangonoidea,"Argis toyamaensis (Yokoya, 1933)","Argis toyamaensis (Yokoya, 1933)",1048667
@@ -62,9 +32,46 @@
 ツノナシオキアミ,Arthropoda,Malacostraca,Euphausiacea,Euphausiidae,"Euphausia pacifica Hansen, 1911","Euphausia pacifica Hansen, 1911",102976
 ナンキョクオキアミ,Arthropoda,Malacostraca,Euphausiacea,Euphausiidae,Euphausia superba,Euphausia superba,6819
 シャコ,Arthropoda,Malacostraca,Stomatopoda,Squillidae,"Oratosquilla oratoria (de Haan, 1844)","Oratosquilla oratoria (de Haan, 1844)",337810
-クロトガリザメ,Chordata,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Carcharhinus falciformis (Bibron 1839),Carcharhinus falciformis (Bibron 1839),202609
-ヨゴレ,Chordata,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Carcharhinus longimanus (Poey 1861),Carcharhinus longimanus (Poey 1861),302049
-ヨシキリザメ,Chordata,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Prionace glauca (Linnaeus 1758),Prionace glauca (Linnaeus 1758),7815
+アカガイ,Mollusca,Bivalvia,Arcoida,Arcidae,"Anadara broughtonii (Schrenck, 1867)","Anadara broughtonii (Schrenck, 1867)",148819
+トリガイ,Mollusca,Bivalvia,Veneroida,Cardiidae,"Fulvia mutica (Reeve, 1844)","Fulvia mutica (Reeve, 1844)",80828
+ウバガイ,Mollusca,Bivalvia,Veneroida,Mactridae,"Spisula sachalinensis (Schrenck, 1862)","Spisula sachalinensis (Schrenck, 1862)",81899
+ハマグリ,Mollusca,Bivalvia,Veneroida,Veneridae,"Meretrix lusoria (Röding, 1798)","Meretrix lusoria (Röding, 1798)",74491
+アサリ,Mollusca,Bivalvia,Veneroida,Veneridae,"Ruditapes philippinarum (Adams & Reeve, 1850)","Ruditapes philippinarum (Adams & Reeve, 1850)",129788
+クロアワビ,Mollusca,Gastropoda,Vetigastropoda,Haliotidae,"Haliotis discus discus Reeve, 1846","Haliotis discus discus Reeve, 1846",36094
+エゾアワビ,Mollusca,Gastropoda,Vetigastropoda,Haliotidae,"Haliotis discus hannai Ino, 1952","Haliotis discus hannai Ino, 1952",36094
+トコブシ,Mollusca,Gastropoda,Vetigastropoda,Haliotidae,"Haliotis diversicolor aquatilis Reeve, 1846","Haliotis diversicolor aquatilis Reeve, 1846",36095
+メガイアワビ,Mollusca,Gastropoda,Vetigastropoda,Haliotidae,"Haliotis gigantea Gmelin, 1791","Haliotis gigantea Gmelin, 1791",37743
+マダカアワビ,Mollusca,Gastropoda,Vetigastropoda,Haliotidae,"Haliotis madaka (Habe, 1979)","Haliotis madaka (Habe, 1979)",81897
+サザエ,Mollusca,Gastropoda,Vetigastropoda,Turbininae,"Turbo sazae Fukuda, 2017","Turbo sazae Fukuda, 2017",2764709
+シライトマキバイ,Mollusca,Gastropoda,Sorbeoconcha,Buccinidae,"Buccinum isaotakii Kira, 1959","Buccinum isaotakii Kira, 1959",284248
+エッチュウバイ,Mollusca,Gastropoda,Sorbeoconcha,Buccinidae,"Buccinum striatissimum Sowerby, 1899","Buccinum striatissimum Sowerby, 1899",235555
+エゾボラモドキ,Mollusca,Gastropoda,Sorbeoconcha,Buccinidae,"Neptunea intersculpta (Sowerby III, 1899)","Neptunea intersculpta (Sowerby III, 1899)",128480
+シリヤケイカ,Mollusca,Cephalopoda,Cephalopoda,Sepiidae,"Sepiella japonica Sasaki, 1929","Sepiella japonica Sasaki, 1929",279094
+イイダコ,Mollusca,Cephalopoda,Octopoda,Octopodidae,"Amphioctopus fangsiao (d'Orbigny, 1839)","Amphioctopus fangsiao (d'Orbigny, 1839)",515817
+ミズダコ,Mollusca,Cephalopoda,Octopoda,Octopodidae,"Enteroctopus dofleini (Wuelker, 1910)","Enteroctopus dofleini (Wuelker, 1910)",267067
+マダコ,Mollusca,Cephalopoda,Octopoda,Octopodidae,"Octopus vulgaris Cuvier, 1797","Octopus vulgaris Cuvier, 1797",6645
+ヤナギダコ,Mollusca,Cephalopoda,Octopoda,Octopodidae,"Paroctopus conispadiceus (Sasaki, 1917)","Paroctopus conispadiceus (Sasaki, 1917)",294700
+コウイカ,Mollusca,Cephalopoda,Sepioidea,Sepiidae,"Sepia esculenta Hoyle, 1885","Sepia esculenta Hoyle, 1885",31210
+カミナリイカ,Mollusca,Cephalopoda,Sepioidea,Sepiidae,"Sepia lycidas Gray, 1849","Sepia lycidas Gray, 1849",296134
+ホタルイカ,Mollusca,Cephalopoda,Teuthoidea,Enoploteuthidae,"Watasenia scintillans (Berry, 1911)","Watasenia scintillans (Berry, 1911)",6625
+ヤリイカ,Mollusca,Cephalopoda,Teuthoidea,Loliginidae,"Heterololigo bleekeri (Keferstein, 1866)","Heterololigo bleekeri (Keferstein, 1866)",1423826
+ジンドウイカ,Mollusca,Cephalopoda,Teuthoidea,Loliginidae,"Loliolus japonica (Hoyle, 1885)","Loliolus japonica (Hoyle, 1885)",78421
+アオリイカ,Mollusca,Cephalopoda,Teuthoidea,Loliginidae,"Sepioteuthis lessoniana Lesson, 1830","Sepioteuthis lessoniana Lesson, 1830",34570
+ケンサキイカ,Mollusca,Cephalopoda,Teuthoidea,Loliginidae,"Uroteuthis edulis (Hoyle, 1885)","Uroteuthis edulis (Hoyle, 1885)",55720
+アメリカオオアカイカ,Mollusca,Cephalopoda,Teuthoidea,Ommastrephidae,Dosidicus gigas,Dosidicus gigas,346249
+アルゼンチンマツイカ,Mollusca,Cephalopoda,Teuthoidea,Ommastrephidae,Illex argentinus,Illex argentinus,6628
+アカイカ,Mollusca,Cephalopoda,Teuthoidea,Ommastrephidae,Ommastrephes bartramii,Ommastrephes bartramii,61679
+スルメイカ,Mollusca,Cephalopoda,Teuthoidea,Ommastrephidae,"Todarodes pacificus Steenstrup, 1880","Todarodes pacificus Steenstrup, 1880",6637
+ソデイカ,Mollusca,Cephalopoda,Teuthoidea,Thysanoteuthidae,"Thysanoteuthis rhombus Troschel, 1857","Thysanoteuthis rhombus Troschel, 1857",61751
+ムラサキウニ,Echinodermata,Echinoidea,Camarodonta,Echinometridae,"Heliocidaris crassispina (A. Agassiz, 1864)","Heliocidaris crassispina (A. Agassiz, 1864)",1043166
+バフンウニ,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,"Hemicentrotus pulcherrimus (A. Agassiz, 1864)","Hemicentrotus pulcherrimus (A. Agassiz, 1864)",7650
+キタムラサキウニ,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,"Mesocentrotus nudus (A. Agassiz, 1864)","Mesocentrotus nudus (A. Agassiz, 1864)",7666
+アカウニ,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,"Pseudocentrotus depressus (A. Agassiz, 1864)","Pseudocentrotus depressus (A. Agassiz, 1864)",7678
+エゾバフンウニ,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,"Strongylocentrotus intermedius (A. Agassiz, 1864)","Strongylocentrotus intermedius (A. Agassiz, 1864)",7667
+シラヒゲウニ,Echinodermata,Echinoidea,Camarodonta,Toxopneustidae,"Tripneustes gratilla (Linnaeus, 1758)","Tripneustes gratilla (Linnaeus, 1758)",7673
+マナマコ,Echinodermata,Holothuroidea,Aspidochirotida,Stichopodidae,"Apostichopus japonicus (Selenka, 1867)","Apostichopus japonicus (Selenka, 1867)",307972
+アブラツノザメ,Chordata,Chondrichthyes,Squaliformes,Squalidae,Squalus suckleyi (Girard 1855),Squalus suckleyi (Girard 1855),7798
+ジンベエザメ,Chordata,Chondrichthyes,Orectolobiformes,Rhincodontidae,Rhincodon typus Smith 1828,Rhincodon typus Smith 1828,259920
 ニタリ,Chordata,Chondrichthyes,Lamniformes,Alopiidae,Alopias pelagicus Nakamura 1935,Alopias pelagicus Nakamura 1935,57979
 ハチワレ,Chordata,Chondrichthyes,Lamniformes,Alopiidae,Alopias superciliosus (Lowe 1841),Alopias superciliosus (Lowe 1841),57980
 マオナガ,Chordata,Chondrichthyes,Lamniformes,Alopiidae,Alopias vulpinus (Bonnaterre 1788),Alopias vulpinus (Bonnaterre 1788),7852
@@ -74,9 +81,10 @@
 ネズミザメ,Chordata,Chondrichthyes,Lamniformes,Lamnidae,Lamna ditropis Hubbs & Follett 1947,Lamna ditropis Hubbs & Follett 1947,38578
 ニシネズミザメ,Chordata,Chondrichthyes,Lamniformes,Lamnidae,Lamna nasus,Lamna nasus,7849
 ミズワニ,Chordata,Chondrichthyes,Lamniformes,Pseudocarchariidae,Pseudocarcharias kamoharai (Matsubara 1936),Pseudocarcharias kamoharai (Matsubara 1936),57991
+クロトガリザメ,Chordata,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Carcharhinus falciformis (Bibron 1839),Carcharhinus falciformis (Bibron 1839),202609
+ヨゴレ,Chordata,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Carcharhinus longimanus (Poey 1861),Carcharhinus longimanus (Poey 1861),302049
+ヨシキリザメ,Chordata,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Prionace glauca (Linnaeus 1758),Prionace glauca (Linnaeus 1758),7815
 アカエイ,Chordata,Chondrichthyes,Myliobatiformes,Dasyatidae,Hemitrygon akajei (Bürger 1841),Hemitrygon akajei (Bürger 1841),2704970
-ジンベエザメ,Chordata,Chondrichthyes,Orectolobiformes,Rhincodontidae,Rhincodon typus Smith 1828,Rhincodon typus Smith 1828,259920
-アブラツノザメ,Chordata,Chondrichthyes,Squaliformes,Squalidae,Squalus suckleyi (Girard 1855),Squalus suckleyi (Girard 1855),7798
 ニホンウナギ,Chordata,Actinopterygii,Anguilliformes,Anguillidae,Anguilla japonica Temminck & Schlegel 1846,Anguilla japonica Temminck & Schlegel 1846,7937
 マアナゴ,Chordata,Actinopterygii,Anguilliformes,Congridae,Conger myriaster (Brevoort 1856),Conger myriaster (Brevoort 1856),7943
 ハモ,Chordata,Actinopterygii,Anguilliformes,Muraenesocidae,Muraenesox cinereus (Forsskål 1775),Muraenesox cinereus (Forsskål 1775),7946
@@ -248,11 +256,3 @@
 スナメリ,Chordata,Mammalia,Cetartiodactyla,Phocoenidae,Neophocaena asiaeorientalis,Neophocaena asiaeorientalis,189058
 イシイルカ,Chordata,Mammalia,Cetartiodactyla,Phocoenidae,Phocoenoides dalli,Phocoenoides dalli,9744
 ツチクジラ,Chordata,Mammalia,Cetartiodactyla,Ziphiidae,Berardius bairdii,Berardius bairdii,48742
-ミツイシコンブ,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,"Saccharina angustata (Kjellman) Lane, Mayes, Druehl et Saunders","Saccharina angustata (Kjellman) Lane, Mayes, Druehl et Saunders",88154
-ガッガラコンブ,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,"Saccharina coriacea (Miyabe) Lane, Mayes, Druehl et Saunders","Saccharina coriacea (Miyabe) Lane, Mayes, Druehl et Saunders",416835
-マコンブ,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,"Saccharina japonica (Areschoug) Lane, Mayes, Druehl et Saunders","Saccharina japonica (Areschoug) Lane, Mayes, Druehl et Saunders",88149
-オニコンブ,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,"Saccharina japonica (Areschoug) Lane, Mayes, Druehl et Saunders var. diabolica (Miyabe) Yotsukura, Kawashima, Kawai, Abe et Druehl","Saccharina japonica (Areschoug) Lane, Mayes, Druehl et Saunders var. diabolica (Miyabe) Yotsukura, Kawashima, Kawai, Abe et Druehl",88149
-リシリコンブ,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,"Saccharina japonica (Areschoug) Lane, Mayes, Druehl et Saunders var. ochotensis (Miyabe) Yotsukura, Kawashima, Kawai, Abe et Druehl","Saccharina japonica (Areschoug) Lane, Mayes, Druehl et Saunders var. ochotensis (Miyabe) Yotsukura, Kawashima, Kawai, Abe et Druehl",88149
-ホソメコンブ,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,"Saccharina japonica (Areschoug) Lane, Mayes, Druehl et Saunders var. religiosa (Miyabe) Yotsukura, Kawashima, Kawai, Abe et Druehl","Saccharina japonica (Areschoug) Lane, Mayes, Druehl et Saunders var. religiosa (Miyabe) Yotsukura, Kawashima, Kawai, Abe et Druehl",88149
-ナガコンブ,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,"Saccharina longissima (Miyabe) Lane, Mayes, Druehl et Saunders","Saccharina longissima (Miyabe) Lane, Mayes, Druehl et Saunders",416841
-ガゴメコンブ,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,"Saccharina sculpera (Miyabe) Lane, Mayes, Druehl et Saunders","Saccharina sculpera (Miyabe) Lane, Mayes, Druehl et Saunders",416830

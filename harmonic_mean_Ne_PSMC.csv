@@ -2,7 +2,7 @@ Japanese_name,Species,SRA,BioSample,Ave_depth,Generation_time,mu,harmonic_mean_N
 ニホンウナギ,Anguilla japonica,SRR19974267,SAMN29326702,109.7,8.5,7.4E-08,23570, NA
 イラコアナゴ,Synaphobranchus kaupii,SRR15082970,SAMN20062003,9.9,8.2,1.0E-08,46603,Taiwan:Kaohsiung
 サンマ,Cololabis saira,NA,SAMN37790936,NA,2,1.0E-08,91532,Japan:Fukushima
-サヨリ,Hyporhamphus sajori,SRR30921217,SAMN44091805,NA,3.3,1.0E-08,NA,China:Qingdao
+サヨリ,Hyporhamphus sajori,SRR30921217,SAMN44091805,NA,3.3,1.0E-08,84012,China:Qingdao
 サンマ,Cololabis saira,NA,SAMN37790936,NA,2,1.0E-08,91532,Japan:Fukushima
 キンメダイ,Beryx splendens,ERR1473897,SAMEA4028808,13.3,9,1,1.0E-08,110241,NA
 カタクチイワシ,Engraulis japonica,SRR28201207,SAMN40219478,47.3,1,1.0E-08,140816,China:Yellow Sea
@@ -19,7 +19,7 @@ Japanese_name,Species,SRA,BioSample,Ave_depth,Generation_time,mu,harmonic_mean_N
 クロマグロ,Thunnus orientalis,SRR14329339,SAMN18876748,43.4,7.3E-08,2.5,18231,NA
 クロダイ,Acanthopagrus schlegelii,SRR29908552,SAMN42360248,118.9,1.0E-08,86484,China:Huizhou
 マダイ,Pagrus major,DRR089066,SAMD00076252,12.4,1.0E-08,FishLife,31235,Japan:Ehime:Kamijima:Iwagi
-タチウオ,Trichiurus japonicus,SRR32395546,SAMN44500129,26.2,5.5,1.0E-08,NA,China: Goji island: Zhoushan county: Zhejiang Province
+タチウオ,Trichiurus japonicus,SRR32395546,SAMN44500129,26.2,5.5,1.0E-08,128310,China: Goji island: Zhoushan county: Zhejiang Province
 ホシガレイ,Verasper variegatus,SRR21480267,SAMN30723058,28.9,1.0E-08,FishLife,39484,NA
 ユメカサゴ,Helicolenus hilgendorfii,ERR5241692,SAMEA7962316,26.5,1.0E-08,FishLife,106721,lat:22.004;long:120.745
 バラメヌケ,Sebastes baramenuke,ERR5241700,SAMEA7962325,18.3,1.0E-08,FishLife,32713,lat:39.67;long:142.13
