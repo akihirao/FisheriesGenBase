@@ -1,4 +1,5 @@
 Phylum,Class,Order,Family,目,科,Notes
+Chordata, Actinopterygii,Acanthuriformes,Latilidae,ニザダイ目,アマダイ科,変更
 Chordata, Actinopterygii,Anguilliformes,Anguillidae,ウナギ目,ウナギ科,OK
 Chordata, Actinopterygii,Anguilliformes,Congridae,ウナギ目,アナゴ科,OK
 Chordata, Actinopterygii,Anguilliformes,Muraenesocidae,ウナギ目,ハモ科,OK
@@ -22,6 +23,7 @@ Chordata, Actinopterygii,Ophidiiformes,Ophidiidae,アシロ目,アシロ科,OK
 Chordata, Actinopterygii,Osmeriformes,Argentinidae,キュウリウオ目,ニギス科,OK
 Chordata, Actinopterygii,Osmeriformes,Salangidae,キュウリウオ目,シラウオ科,OK
 Chordata, Actinopterygii,Perciformes,Acropomatidae,スズキ目,ホタルジャコ科,OK
+Chordata, Actinopterygii,Perciformes,Agonidae,スズキ目,トクビレ科,追加
 Chordata, Actinopterygii,Perciformes,Ammodytidae,スズキ目,イカナゴ科,OK
 Chordata, Actinopterygii,Perciformes,Branchiostegidae,スズキ目,アマダイ科,OK
 Chordata, Actinopterygii,Perciformes,Callionymidae,スズキ目,ネズッポ科,OK

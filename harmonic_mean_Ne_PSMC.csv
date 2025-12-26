@@ -20,6 +20,7 @@ Japanese_name,Species,SRA,BioSample,Ave_depth,Generation_time,mu,harmonic_mean_N
 クロダイ,Acanthopagrus schlegelii,SRR29908552,SAMN42360248,118.9,1.0E-08,86484,China:Huizhou
 マダイ,Pagrus major,DRR089066,SAMD00076252,12.4,1.0E-08,FishLife,31235,Japan:Ehime:Kamijima:Iwagi
 タチウオ,Trichiurus japonicus,SRR32395546,SAMN44500129,26.2,5.5,1.0E-08,128310,China: Goji island: Zhoushan county: Zhejiang Province
+マコガレイ,Pseudopleuronectes yokohamae,SRR33323076,SAMN48156409,84.7,6.9,1.0E-08,92350,China:Yantai
 ホシガレイ,Verasper variegatus,SRR21480267,SAMN30723058,28.9,1.0E-08,FishLife,39484,NA
 ユメカサゴ,Helicolenus hilgendorfii,ERR5241692,SAMEA7962316,26.5,1.0E-08,FishLife,106721,lat:22.004;long:120.745
 バラメヌケ,Sebastes baramenuke,ERR5241700,SAMEA7962325,18.3,1.0E-08,FishLife,32713,lat:39.67;long:142.13

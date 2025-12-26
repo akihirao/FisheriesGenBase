@@ -23,7 +23,7 @@ library(rentrez)
 rm(list=ls(all=TRUE))
 
 # Current standard Japanese/scientific names of all fish species recorded from Japanese waters: https://www.museum.kagoshima-u.ac.jp/staff/motomura/jaf.html
-JAFList <- read_csv("20250911_JAFList.csv") #update@2025No14 in this script
+JAFList <- read_csv("20251210_JAFList.csv") #update@2025No14 in this script
 
 NonFish_List <- read_csv("NonFishList.csv")
 
@@ -199,7 +199,7 @@ Order_order <- c(
   "Cephalopoda","Octopoda","Sepioidea","Teuthoidea",
   "Camarodonta","Aspidochirotida",
   "Squaliformes","Orectolobiformes","Lamniformes","Carcharhiniformes","Myliobatiformes",
-  "Anguilliformes","Aulopiformes","Beloniformes","Beryciformes","Clupeiformes","Gadiformes",
+  "Acanthuriformes","Anguilliformes","Aulopiformes","Beloniformes","Beryciformes","Clupeiformes","Gadiformes",
   "Lampriformes","Lophiiformes","Ophidiiformes","Osmeriformes","Perciformes","Pleuronectiformes",
   "Salmoniformes","Scorpaeniformes","Syngnathiformes","Tetraodontiformes","Zeiformes",
   "Carnivora","Cetartiodactyla"

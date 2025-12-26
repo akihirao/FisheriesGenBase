@@ -85,6 +85,7 @@
 ヨゴレ,Chordata,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Carcharhinus longimanus (Poey 1861),Carcharhinus longimanus (Poey 1861),302049
 ヨシキリザメ,Chordata,Chondrichthyes,Carcharhiniformes,Carcharhinidae,Prionace glauca (Linnaeus 1758),Prionace glauca (Linnaeus 1758),7815
 アカエイ,Chordata,Chondrichthyes,Myliobatiformes,Dasyatidae,Hemitrygon akajei (Bürger 1841),Hemitrygon akajei (Bürger 1841),2704970
+アカアマダイ,Chordata,Actinopterygii,Acanthuriformes,Latilidae,Branchiostegus japonicus (Houttuyn 1782),Branchiostegus japonicus (Houttuyn 1782),270562
 ニホンウナギ,Chordata,Actinopterygii,Anguilliformes,Anguillidae,Anguilla japonica Temminck & Schlegel 1846,Anguilla japonica Temminck & Schlegel 1846,7937
 マアナゴ,Chordata,Actinopterygii,Anguilliformes,Congridae,Conger myriaster (Brevoort 1856),Conger myriaster (Brevoort 1856),7943
 ハモ,Chordata,Actinopterygii,Anguilliformes,Muraenesocidae,Muraenesox cinereus (Forsskål 1775),Muraenesox cinereus (Forsskål 1775),7946
@@ -115,8 +116,8 @@
 イシカワシラウオ,Chordata,Actinopterygii,Osmeriformes,Salangidae,Neosalangichthys ishikawae (Wakiya & Takahasi 1913),Neosalangichthys ishikawae (Wakiya & Takahasi 1913),2905919
 ホタルジャコ,Chordata,Actinopterygii,Perciformes,Acropomatidae,Acropoma japonicum Günther 1859,Acropoma japonicum Günther 1859,2233869
 アカムツ,Chordata,Actinopterygii,Perciformes,Acropomatidae,Doederleinia berycoides (Hilgendorf 1879),Doederleinia berycoides (Hilgendorf 1879),223795
+ケムシカジカ,Chordata,Actinopterygii,Perciformes,Agonidae,Hemitripterus villosus (Pallas 1814),Hemitripterus villosus (Pallas 1814),255551
 イカナゴ,Chordata,Actinopterygii,Perciformes,Ammodytidae,Ammodytes japonicus Duncker & Mohr 1939,Ammodytes japonicus Duncker & Mohr 1939,1483214
-アカアマダイ,Chordata,Actinopterygii,Perciformes,Branchiostegidae,Branchiostegus japonicus (Houttuyn 1782),Branchiostegus japonicus (Houttuyn 1782),270562
 ネズミゴチ,Chordata,Actinopterygii,Perciformes,Callionymidae,Callionymus curvicornis Valenciennes 1837,Callionymus curvicornis Valenciennes 1837,1503337
 マルアジ,Chordata,Actinopterygii,Perciformes,Carangidae,Decapterus maruadsi (Temminck & Schlegel 1843),Decapterus maruadsi (Temminck & Schlegel 1843),58220
 カイワリ,Chordata,Actinopterygii,Perciformes,Carangidae,Kaiwarinus equula (Temminck & Schlegel 1844),Kaiwarinus equula (Temminck & Schlegel 1844),274469
@@ -226,7 +227,6 @@
 マスノスケ,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Oncorhynchus tshawytscha (Walbaum 1792),Oncorhynchus tshawytscha (Walbaum 1792),74940
 ブラウントラウト,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Salmo trutta Linnaeus 1758,Salmo trutta Linnaeus 1758,8032
 アブラボウズ,Chordata,Actinopterygii,Scorpaeniformes,Anoplopomatidae,Erilepis zonifer (Lockington 1880),Erilepis zonifer (Lockington 1880),270543
-ケムシカジカ,Chordata,Actinopterygii,Scorpaeniformes,Hemitripteridae,Hemitripterus villosus (Pallas 1814),Hemitripterus villosus (Pallas 1814),255551
 クジメ,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Hexagrammos agrammus (Temminck & Schlegel 1843),Hexagrammos agrammus (Temminck & Schlegel 1843),192376
 アイナメ,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Hexagrammos otakii Jordan & Starks 1895,Hexagrammos otakii Jordan & Starks 1895,72450
 ホッケ,Chordata,Actinopterygii,Scorpaeniformes,Hexagrammidae,Pleurogrammus azonus Jordan & Metz 1913,Pleurogrammus azonus Jordan & Metz 1913,175282
